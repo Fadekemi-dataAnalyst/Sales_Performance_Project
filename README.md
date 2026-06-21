@@ -1,5 +1,7 @@
 # Sales_Performance_Project
 
+<img width="957" height="497" alt="Image" src="https://github.com/user-attachments/assets/bf0ea7f2-3781-48bb-b4e0-334038e0cdb3" />
+
 ### Project Structure
 -	Project overview
 -	Tools Used
