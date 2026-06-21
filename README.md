@@ -28,6 +28,8 @@ The dataset was cleaned and prepared to ensure accuracy, consistency, and reliab
 -	Total Revenue column was created using a formula (Quantity × UnitPrice) to calculate sales value for each transaction. 
 -	The Year was extracted from the OrderDate column to support trend analysis
 
+-	<img width="960" height="506" alt="Image" src="https://github.com/user-attachments/assets/1d7ea893-713c-41cf-8e64-63cc0a8e543c" />
+
   ### Exploratory Data Analysis (EDA)
 Exploratory Data Analysis was carried out using Microsoft Excel to understand patterns, trends, and relationships within the sales dataset. The analysis focused on answering key business questions such as product performance, regional sales distribution, customer behavior, and payment preferences.
 The following areas were explored:
