@@ -2,6 +2,7 @@
 
 <img width="957" height="497" alt="Image" src="https://github.com/user-attachments/assets/bf0ea7f2-3781-48bb-b4e0-334038e0cdb3" />
 
+
 ### Project Structure
 -	Project overview
 -	Tools Used
@@ -26,9 +27,11 @@ The dataset was cleaned and prepared to ensure accuracy, consistency, and reliab
 - Duplicate records were checked and removed to ensure data integrity. 
 -	The dataset was reviewed for completeness to ensure all required fields were properly filled and structured.
 -	Total Revenue column was created using a formula (Quantity × UnitPrice) to calculate sales value for each transaction. 
--	The Year was extracted from the OrderDate column to support trend analysis
+-	Month was extracted from the OrderDate column to support trend analysis
 
--	<img width="960" height="506" alt="Image" src="https://github.com/user-attachments/assets/1d7ea893-713c-41cf-8e64-63cc0a8e543c" />
+
+	<img width="960" height="506" alt="Image" src="https://github.com/user-attachments/assets/1d7ea893-713c-41cf-8e64-63cc0a8e543c" />
+
 
   ### Exploratory Data Analysis (EDA)
 Exploratory Data Analysis was carried out using Microsoft Excel to understand patterns, trends, and relationships within the sales dataset. The analysis focused on answering key business questions such as product performance, regional sales distribution, customer behavior, and payment preferences.
@@ -37,7 +40,7 @@ The following areas were explored:
 -	Product Analysis: Products were analyzed to identify the best-performing and least-performing items based on quantity sold and revenue generated. 
 -	Regional Analysis: Sales were grouped by region to determine which areas contributed the most to overall revenue. 
 -	Customer Analysis: Customer purchase behavior was examined to identify frequent buyers and high-value customers. 
--	Time Analysis: Order dates were analyzed by year to observe sales trends over time. 
+-	Time Analysis: Order dates were analyzed by month to observe sales trends over time. 
 -	Payment Method Analysis: Transactions were grouped by payment method to understand customer payment preferences. 
 Pivot Tables and charts were used to summarize the data and highlight key patterns for better interpretation and visualization.
 
@@ -74,8 +77,20 @@ Analysis of monthly revenue revealed notable sales patterns:
 -	Other low-performing months included April ($200) and June ($200). 
 These findings indicate that sales were heavily concentrated in the early part of the year, with a substantial drop in performance during the remaining months.
 
+
+<img width="959" height="501" alt="Image" src="https://github.com/user-attachments/assets/d8d439c5-1838-4a1a-bffc-c41e7b57a4f3" />
+
+
+
+<img width="942" height="472" alt="Image" src="https://github.com/user-attachments/assets/4dc4e367-eb24-4b0e-83f1-f4b0103f0e1c" />
+
+
 ### Dashboard Overview
 This Excel dashboard presents an interactive view of sales performance, including KPIs such as total revenue, quantity sold, and total price. It visualizes product performance, regional sales, payment methods, and monthly trends using Pivot Tables, charts, and slicers to support data-driven decision-making.
+
+
+<img width="922" height="471" alt="Image" src="https://github.com/user-attachments/assets/c4f10493-1258-43db-9ac3-e8ff737982fc" />
+
 
 ### Recommendations
 Based on the analysis of the sales dataset, the following recommendations are made to improve business performance and support better decision-making:
