@@ -1,6 +1,8 @@
-# Sales_Performance_Project
+# Sales Performance Analysis
 
-<img width="957" height="497" alt="Image" src="https://github.com/user-attachments/assets/bf0ea7f2-3781-48bb-b4e0-334038e0cdb3" />
+
+<img width="1024" height="682" alt="Image" src="https://github.com/user-attachments/assets/08dbfee2-9f8d-486e-b1ba-cc6109d8ed02" />
+
 
 
 ### Project Structure
@@ -11,7 +13,28 @@
 -	Findings
 -	Dashboard Overview
 -	Recommendations
-	Conclusion
+-   Conclusion
+
+
+
+
+# Data Dictionary
+
+| Field Name        | Description                                                            | Data Type        |
+| ----------------- | ---------------------------------------------------------------------- | ---------------- |
+| **OrderID**       | Unique identifier assigned to each sales transaction.                  | Text             |
+| **CustomerName**  | Name of the customer who placed the order.                             | Text             |
+| **Products**      | Name of the product purchased by the customer.                         | Text             |
+| **Region**        | Geographic location or sales region where the order was made.          | Text             |
+| **OrderDate**     | Date on which the order was placed.                                    | Date             |
+| **Quantity**      | Number of product units purchased in a transaction.                    | Integer          |
+| **UnitPrice**     | Price of a single unit of the product.                                 | Currency/Decimal |
+| **PaymentMethod** | Method used by the customer to complete the payment.                   | Text             |
+| **Revenue**       | Total revenue generated from the transaction (*Quantity × UnitPrice*). | Currency/Decimal |
+| **Month**         | Month extracted from the OrderDate for monthly sales trend analysis.   | Text             |
+
+
+
 
 ### Project Overview
 This project analyzes a sales dataset containing OrderID, Customer details, Product, Region, OrderDate, Quantity, UnitPrice, and PaymentMethod. The goal is to explore sales trends, customer behavior, and product performance to generate actionable business insights using Excel.
@@ -30,7 +53,14 @@ The dataset was cleaned and prepared to ensure accuracy, consistency, and reliab
 -	Month was extracted from the OrderDate column to support trend analysis
 
 
-	<img width="960" height="506" alt="Image" src="https://github.com/user-attachments/assets/1d7ea893-713c-41cf-8e64-63cc0a8e543c" />
+# Preview of data before cleaning
+
+<img width="957" height="497" alt="Image" src="https://github.com/user-attachments/assets/bf0ea7f2-3781-48bb-b4e0-334038e0cdb3" />
+
+# preview of after cleaning
+
+
+<img width="960" height="506" alt="Image" src="https://github.com/user-attachments/assets/1d7ea893-713c-41cf-8e64-63cc0a8e543c" />
 
 
   ### Exploratory Data Analysis (EDA)
@@ -47,40 +77,45 @@ Pivot Tables and charts were used to summarize the data and highlight key patter
 ### Findings
 #### Key Performance Indicators (KPIs)
 The sales analysis revealed the following key metrics:
--	Total Quantity Sold: 189 units 
--	Total Sales Value (Total Price): $28.0K 
--	Total Revenue Generated: $48.5K 
+-	Total Quantity Sold: **189 units** 
+-	Total Sales Value (Total Price): **$28.0K** 
+-	Total Revenue Generated: **$48.5K** 
 These KPIs provide an overview of the company's sales performance and indicate a healthy revenue generation from the products sold during the period under review.
 #### Product Performance
 Product analysis showed significant differences in revenue contribution:
--	Laptop was the top-selling product, generating $30,000 in revenue and contributing approximately 61.9% of total revenue. 
--	Headphones was the least-selling product, generating $3,450 in revenue and contributing approximately 7.1% of total revenue. 
+-	Laptop was the top-selling product, generating **$30,000** in revenue and contributing approximately **61.9%** of total revenue. 
+-	Headphones was the least-selling product, generating **$3,450** in revenue and contributing approximately **7.1%** of total revenue. 
 This indicates that Laptop sales were the primary driver of revenue and should remain a key focus area for the business.
 #### Regional Performance
 Revenue distribution across regions showed that:
--	Lagos generated the highest revenue at $25.2K (approximately 52.0% of total revenue). 
--	Abuja contributed $16.4K (approximately 33.8%). 
--	Port Harcourt generated $6.9K (approximately 14.2%). 
+-	Lagos generated the highest revenue at **$25.2K** (approximately **52.0%** of total revenue). 
+-	Abuja contributed **$16.4K** (approximately **33.8%**). 
+-	Port Harcourt generated **$6.9K** (approximately **14.2%**). 
 Lagos emerged as the strongest-performing market, accounting for more than half of the total revenue.
 #### Payment Method Analysis
 Customer payment preferences were analyzed based on revenue generated:
--	Transfer was the most preferred payment method, generating $21,700, which represents approximately 44.7% of total revenue. 
--	Cash contributed $17,550 (36.2%). 
--	Card contributed $9,200 (19.0%). 
+-	Transfer was the most preferred payment method, generating **$21,700**, which represents approximately **44.7%** of total revenue. 
+-	Cash contributed **$17,550 (36.2%)**. 
+-	Card contributed **$9,200 (19.0%)**. 
 The results suggest that customers favored bank transfers over other payment methods.
 #### Monthly Sales Trend
 Analysis of monthly revenue revealed notable sales patterns:
--	Sales peaked in February, generating $21.4K in revenue. 
--	January followed closely with $20.3K, making the first two months responsible for the majority of annual revenue. 
+-	Sales peaked in February, generating **$21.4K** in revenue. 
+-	January followed closely with **$20.3K**, making the first two months responsible for the majority of annual revenue. 
 -	Sales declined significantly after February. 
--	The lowest sales were recorded in December, with revenue of only $100. 
--	Other low-performing months included April ($200) and June ($200). 
+-	The lowest sales were recorded in December, with revenue of only **$100**. 
+-	Other low-performing months included April **($200)** and June **($200)**. 
 These findings indicate that sales were heavily concentrated in the early part of the year, with a substantial drop in performance during the remaining months.
 
+
+
+# Preview of Analysis
 
 <img width="959" height="501" alt="Image" src="https://github.com/user-attachments/assets/d8d439c5-1838-4a1a-bffc-c41e7b57a4f3" />
 
 
+
+# Preview of Charts
 
 <img width="942" height="472" alt="Image" src="https://github.com/user-attachments/assets/4dc4e367-eb24-4b0e-83f1-f4b0103f0e1c" />
 
@@ -88,6 +123,8 @@ These findings indicate that sales were heavily concentrated in the early part o
 ### Dashboard Overview
 This Excel dashboard presents an interactive view of sales performance, including KPIs such as total revenue, quantity sold, and total price. It visualizes product performance, regional sales, payment methods, and monthly trends using Pivot Tables, charts, and slicers to support data-driven decision-making.
 
+
+# Preview of Dashboard
 
 <img width="922" height="471" alt="Image" src="https://github.com/user-attachments/assets/c4f10493-1258-43db-9ac3-e8ff737982fc" />
 
