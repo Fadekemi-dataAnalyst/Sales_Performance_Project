@@ -121,7 +121,7 @@ These findings indicate that sales were heavily concentrated in the early part o
 
 
 ### Dashboard Overview
-This Excel dashboard presents an interactive view of sales performance, including KPIs such as total revenue, quantity sold, and total price. It visualizes product performance, regional sales, payment methods, and monthly trends using Pivot Tables, charts, and slicers to support data-driven decision-making.
+This Excel dashboard presents an interactive view of sales performance, including KPIs such as total revenue, quantity sold, and total price. It visualizes product performance, regional sales, payment methods, and monthly trends using Pivot Tables and charts to support data-driven decision-making.
 
 
 # Preview of Dashboard
