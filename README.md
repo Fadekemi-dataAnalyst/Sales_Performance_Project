@@ -9,11 +9,11 @@
 -	Project overview
 -	Tools Used
 -	Data cleaning/Preparation
--	Explanatory data analysis
+-	Exploratory data analysis
 -	Findings
 -	Dashboard Overview
 -	Recommendations
--   Conclusion
+- Conclusion
 
 
 
